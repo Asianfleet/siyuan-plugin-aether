@@ -1,0 +1,20 @@
+{
+    "lang": "en_US",
+    "main": {
+      "newChat": "New Chat",
+      "typeSomething": "Type something...",
+      "modelConfig": {
+          "modelProvider": "Model Provider:",
+          "modelSeries": "Model Series:",
+          "modelApiKey": "API Key:",
+          "modelName": "Model Name:"
+      },
+      "messageComponent": {
+        "deepthinking": "In-depth thinking...",
+        "deepthinked": "In-depth thinking completed"
+      }
+    },
+    "chatHistory": {
+      "title": "History"
+    }
+}

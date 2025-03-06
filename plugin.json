@@ -1,0 +1,31 @@
+{
+  "name": "aether-siyuan",
+  "author": "Asianfleet",
+  "url": "https://github.com/Asianfleet/siyuan-plugin-aether",
+  "version": "0.0.1",
+  "minAppVersion": "3.0.12",
+  "backends": [
+    "windows",
+    "linux",
+    "darwin"
+  ],
+  "frontends": [
+    "desktop"
+  ],
+  "displayName": {
+    "en_US": "Aether",
+    "zh_CN": "Aether（以太）"
+  },
+  "description": {
+    "en_US": "Sidebar AI Dialogue",
+    "zh_CN": "侧边栏 AI 对话"
+  },
+  "readme": {
+    "en_US": "README_en_US.md",
+    "zh_CN": "README.md"
+  },
+  "keywords": [
+    "ai",
+    "chat"
+  ]
+}
