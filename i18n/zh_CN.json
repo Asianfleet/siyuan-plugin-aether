@@ -4,14 +4,27 @@
     "newChat": "新对话",
     "typeSomething": "输入一些内容...",
     "modelConfig": {
-        "modelProvider": "服务提供方：",
+        "modelProvider": "提供方：",
         "modelSeries": "模型系列：",
         "modelApiKey": "API 密钥：",
         "modelName": "模型名称："
     },
+    "customModelConfig": {
+      "configName": "配置名称：",
+      "currentConfig": "当前配置：",
+      "modelOptions": "模型选项：",
+      "baseURL": "URL：",
+      "ApiKey": "API密钥："
+    },
     "messageComponent": {
       "deepthinking": "深度思考中...",
       "deepthinked": "已完成深度思考"
+    },
+    "placeHolder": {
+      "apikey": "请输入API密钥...",
+      "model": "请输入模型名称...",
+      "baseURL": "请输入URL...",
+      "config": "请输入配置名称..." 
     }
   },
   "chatHistory": {

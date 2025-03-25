@@ -9,9 +9,22 @@
           "modelApiKey": "API Key:",
           "modelName": "Model Name:"
       },
+      "customModelConfig": {
+        "configName": "Configuration name:",
+        "currentConfig": "Current configuration:",
+        "modelOptions": "Model options:",
+        "baseURL": "baseURL:",
+        "ApiKey": "ApiKey:"
+      },
       "messageComponent": {
         "deepthinking": "In-depth thinking...",
         "deepthinked": "In-depth thinking completed"
+      },
+      "placeHolder": {
+        "apikey": "Please enter the API key...",
+        "model": "Please enter the model name...",
+        "baseURL": "Please enter url...",
+        "config": "Please enter a configuration name..." 
       }
     },
     "chatHistory": {
