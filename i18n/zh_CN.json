@@ -14,11 +14,17 @@
       "currentConfig": "当前配置：",
       "modelOptions": "模型选项：",
       "baseURL": "URL：",
-      "ApiKey": "API密钥："
+      "ApiKey": "API密钥：",
+      "waitForSave": "等待保存...",
+      "newConfig": "新建配置"
     },
     "messageComponent": {
       "deepthinking": "深度思考中...",
-      "deepthinked": "已完成深度思考"
+      "deepthinked": "已完成深度思考",
+      "cancelEdit": "取消",
+      "save": "保存",
+      "saveAndSend": "保存并发送",
+      "reGenerate": "重新生成"
     },
     "placeHolder": {
       "apikey": "请输入API密钥...",
@@ -29,5 +35,30 @@
   },
   "chatHistory": {
     "title": "对话历史"
+  },
+  "toolTips": {
+      "messageBlock": {
+        "regenMessage": "重新生成",
+        "regenBelow": "在下方重新生成",
+        "editContent": "编辑内容",
+        "moreOptions": "更多选项",
+        "copyContent": "复制内容"
+      },
+      "topMenu": {
+        "chat": "对话界面",
+        "settings": "设置",
+        "history": "历史记录"
+      },
+      "messageToolBar": {
+        "send": "发送",
+        "moreOptions": {
+          "ref": "引用",
+          "delete": "删除"
+        }
+      }
+  },
+  "notification": {
+    "contentCopyed": "内容已复制到剪贴板",
+    "cannotCopy":"无法复制内容"
   }
 }

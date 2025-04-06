@@ -43,6 +43,12 @@ Aether 是一个为思源笔记软件设计的插件。该插件在侧边栏添�
         <p align="center">
             <img src="asset/custom_config.png" alt="catenaconf logo" width=50%/>
             <p align="center">自定义模型配置界面</p>
+            <p align="center">注意，更新插件之后如果思源没有自己刷新，请手动刷新一次</p>
+        </p>
+    4. 动图演示
+        <p align="center">
+            <img src="asset/model_select.gif" alt="catenaconf logo" width=50%/>
+            <p align="center">模型选择与配置</p>
         </p>
 
 - **对话界面**
@@ -61,11 +67,31 @@ Aether 是一个为思源笔记软件设计的插件。该插件在侧边栏添�
 <p align="center">
     <img src="asset/chat.png" alt="catenaconf logo" width=60%/>
 </p>
+<p align="center">基本界面</p>
 
 <p align="center">
     <img src="asset/reason.png" alt="catenaconf logo" width=60%/>
 </p>
+<p align="center">消息状态显示</p>
 
-<p align="center">功能如图所示</p>
+<p align="center">
+    <img src="asset/toolbar.gif" alt="catenaconf logo" width=60%/>
+</p>
+<p align="center">消息工具栏</p>
+
+<p align="center">
+    <img src="asset/refdelete.gif" alt="catenaconf logo" width=60%/>
+</p>
+<p align="center">引用和删除</p>
+
+<p align="center">
+    <img src="asset/edit_send.gif" alt="catenaconf logo" width=60%/>
+</p>
+<p align="center">编辑消息、编辑并重新发送</p>
+
+<p align="center">
+    <img src="asset/copy.gif" alt="catenaconf logo" width=60%/>
+</p>
+<p align="center">复制消息</p>
 
 _注：Token 以及 API Cost 的计算结果仅供粗略估计，并不完全准确。后续会更新自动余额查询功能_

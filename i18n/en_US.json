@@ -14,11 +14,17 @@
         "currentConfig": "Current configuration:",
         "modelOptions": "Model options:",
         "baseURL": "baseURL:",
-        "ApiKey": "ApiKey:"
+        "ApiKey": "ApiKey:",
+        "waitForSave": "Editing...",
+        "newConfig": "New config"
       },
       "messageComponent": {
         "deepthinking": "In-depth thinking...",
-        "deepthinked": "In-depth thinking completed"
+        "deepthinked": "In-depth thinking completed",
+        "cancelEdit": "Cancel",
+        "save": "Save",
+        "saveAndSend": "Save and Send",
+        "reGenerate": "Re-generate"
       },
       "placeHolder": {
         "apikey": "Please enter the API key...",
@@ -29,5 +35,30 @@
     },
     "chatHistory": {
       "title": "History"
+    },
+    "toolTips": {
+      "messageBlock": {
+        "regenMessage": "Re-generate",
+        "regenBelow": "Re-generate below",
+        "editContent": "Edit content",
+        "moreOptions": "More options",
+        "copyContent": "Copy content"
+      },
+      "topMenu": {
+        "chat": "Chat",
+        "settings": "Settings",
+        "history": "Chat History"
+      },
+      "messageToolBar": {
+        "send": "send",
+        "moreOptions": {
+          "ref": "quote",
+          "delete": "delete"
+        }
+      }
+    },
+    "notification": {
+      "contentCopyed": "Content copied",
+      "cannotCopy":"Can not copy content"
     }
 }

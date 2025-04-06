@@ -39,10 +39,16 @@ Aether is a plugin designed for Siyuan notes software. The plugin adds a button 
             <img src="asset/save_en.png" alt="catenaconf logo" width=50%/>
             <p align="center">Click the save button to save the current information</p>
         </p>
-    3. 自定义模型配置
+    3. Custom model configuration
         <p align="center">
             <img src="asset/custom_config.png" alt="catenaconf logo" width=50%/>
-            <p align="center">自定义模型配置界面</p>
+            <p align="center">Custom model configuration interface</p>
+            <p align="center">Note that if Siyuan does not refresh itself after updating the plug-in, please refresh it manually.</p>
+        </p>
+    4. Animated demonstration
+        <p align="center">
+            <img src="asset/model_select_en.gif" alt="model_select" width=50%/>
+            <p align="center">Model selection and configuration</p>
         </p>
 - **Dialogue Interface**
     <p align="center">
@@ -60,11 +66,31 @@ Aether is a plugin designed for Siyuan notes software. The plugin adds a button 
 <p align="center">
     <img src="asset/chat_en.png" alt="catenaconf logo" width=60%/>
 </p>
+<p align="center">Basic interface</p>
 
 <p align="center">
     <img src="asset/reason_en.png" alt="catenaconf logo" width=60%/>
 </p>
+<p align="center">Message status display</p>
 
-<p align="center">Functions are shown in the figure</p>
+<p align="center">
+    <img src="asset/toolbar_en.gif" alt="catenaconf logo" width=60%/>
+</p>
+<p align="center">Message toolbar</p>
+
+<p align="center">
+    <img src="asset/quote_en.gif" alt="catenaconf logo" width=60%/>
+</p>
+<p align="center">More options</p>
+
+<p align="center">
+    <img src="asset/copy_en.gif" alt="catenaconf logo" width=60%/>
+</p>
+<p align="center">Copy message</p>
+
+<p align="center">
+    <img src="asset/edit_en.gif" alt="catenaconf logo" width=60%/>
+</p>
+<p align="center">Edit and resend</p>
 
 _Note: The calculation results of Tokens and API Costs are for rough estimates only and are not entirely accurate. An automatic balance query function will be updated later._
