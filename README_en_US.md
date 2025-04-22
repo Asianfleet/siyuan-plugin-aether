@@ -15,7 +15,8 @@ Aether —— Where Dialogue Meets Depth.
 ## Introduction
 
 Aether is a plugin designed for Siyuan notes software. The plugin adds a button to the sidebar that, when clicked, opens a side panel for dialogue with large language models (more features integrated with Siyuan will be added later).
-⚠️ **Notice:** Due to personal time constraints, this is currently an **extremely early** version. There will be significant changes before the version stabilizes, please save your dialogue information elsewhere in a timely manner.
+⚠️ **Note:** Due to personal time constraints, this is currently a **very early** version.
+⚠️ **Note:** Personal configurations and conversation records will be cleared until the version stabilizes. Please save the conversation information elsewhere in a timely manner.
 
 ## Getting Started
 

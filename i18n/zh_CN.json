@@ -60,5 +60,8 @@
   "notification": {
     "contentCopyed": "内容已复制到剪贴板",
     "cannotCopy":"无法复制内容"
-  }
+  },
+  "others": {
+      "pastedImage": "粘贴的图片"
+    }
 }

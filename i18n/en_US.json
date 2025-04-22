@@ -60,5 +60,8 @@
     "notification": {
       "contentCopyed": "Content copied",
       "cannotCopy":"Can not copy content"
+    },
+    "others": {
+      "pastedImage": "Pasted image"
     }
 }
