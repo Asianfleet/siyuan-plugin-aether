@@ -29,7 +29,7 @@
     "placeHolder": {
       "apikey": "请输入API密钥...",
       "model": "请输入模型名称...",
-      "baseURL": "请输入URL...",
+      "baseURL": "请输入URL（包含/completions）...",
       "config": "请输入配置名称..." 
     },
     "update": {

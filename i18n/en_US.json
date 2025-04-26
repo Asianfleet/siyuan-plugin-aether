@@ -29,7 +29,7 @@
       "placeHolder": {
         "apikey": "Please enter the API key...",
         "model": "Please enter the model name...",
-        "baseURL": "Please enter url...",
+        "baseURL": "Please enter url (including /completions)...",
         "config": "Please enter a configuration name..." 
       },
       "update": {
