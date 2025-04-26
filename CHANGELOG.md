@@ -19,3 +19,12 @@
 
 * 实现图片输入功能
   Implement image input
+
+## v0.02-beta.1
+
+* 实现文件粘贴与预览功能
+  Implement file paste and preview function
+
+* 新增附件输入按钮
+  Add attachment input button
+  

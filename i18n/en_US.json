@@ -31,6 +31,9 @@
         "model": "Please enter the model name...",
         "baseURL": "Please enter url...",
         "config": "Please enter a configuration name..." 
+      },
+      "update": {
+        "title": "Update log"
       }
     },
     "chatHistory": {
@@ -55,6 +58,10 @@
           "ref": "quote",
           "delete": "delete"
         }
+      },
+      "filePreview": {
+        "copyParsedContent": "Copy (parsed) content",
+        "closeInterface": "close"
       }
     },
     "notification": {

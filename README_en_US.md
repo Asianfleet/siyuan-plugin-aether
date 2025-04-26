@@ -18,6 +18,11 @@ Aether is a plugin designed for Siyuan notes software. The plugin adds a button 
 ⚠️ **Note:** Due to personal time constraints, this is currently a **very early** version.
 ⚠️ **Note:** Personal configurations and conversation records will be cleared until the version stabilizes. Please save the conversation information elsewhere in a timely manner.
 
+## Recently updated functions
+
+- Picture and document input
+- Modification and regeneration of message content in session
+
 ## Getting Started
 
 <p align="center">

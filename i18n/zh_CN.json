@@ -31,6 +31,9 @@
       "model": "请输入模型名称...",
       "baseURL": "请输入URL...",
       "config": "请输入配置名称..." 
+    },
+    "update": {
+      "title": "更新日志"
     }
   },
   "chatHistory": {
@@ -55,6 +58,10 @@
           "ref": "引用",
           "delete": "删除"
         }
+      },
+      "filePreview": {
+        "copyParsedContent": "复制（解析后）内容",
+        "closeInterface": "关闭"
       }
   },
   "notification": {
