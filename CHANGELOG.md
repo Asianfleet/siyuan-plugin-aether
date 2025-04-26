@@ -28,3 +28,10 @@
 * 新增附件输入按钮
   Add attachment input button
   
+## v0.02-beta.2
+
+* 改进更新日志样式
+  Improve the update log style
+
+* 优化消息界面布局
+  Optimize message interface layout

@@ -33,7 +33,11 @@
       "config": "请输入配置名称..." 
     },
     "update": {
-      "title": "更新日志"
+      "title": "更新日志",
+      "newfeatures": "新增功能",
+      "bugfixes": "问题修复",
+      "improvements": "其他优化",
+      "allversions": "所有版本"
     }
   },
   "chatHistory": {

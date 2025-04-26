@@ -33,7 +33,11 @@
         "config": "Please enter a configuration name..." 
       },
       "update": {
-        "title": "Update log"
+        "title": "Update log",
+        "newfeatures": "New features",
+        "bugfixes": "Bug fixes",
+        "improvements": "Improvements",
+        "allversions": "All versions"
       }
     },
     "chatHistory": {
