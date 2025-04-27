@@ -6,7 +6,7 @@
     <img src="asset/aether.png" alt="catenaconf logo" width=100%/>
 </p>
 
-[English README](README_en_US.md) | [更新记录](CHANGELOG.md)
+[English README](README_en_US.md) | [更新记录](CHANGELOG.md) | QQ 交流群：1044315407（密码：Aether）
 
 # Aether （以太）
 

@@ -35,3 +35,8 @@
 
 * 优化消息界面布局
   Optimize message interface layout
+
+## v0.02-beta.3
+
+* 增加暗色模式样式
+  Add dark mode style
