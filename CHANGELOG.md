@@ -40,3 +40,8 @@
 
 * 增加暗色模式样式
   Add dark mode style
+
+## v0.02-beta.4
+
+* 完善暗色模式样式
+  Improve dark mode style
