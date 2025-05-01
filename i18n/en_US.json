@@ -38,6 +38,14 @@
         "bugfixes": "Bug fixes",
         "improvements": "Improvements",
         "allversions": "All versions"
+      },
+      "contextMenu": {
+        "workspace": "Workspace",
+        "screenshot": "Screenshot",
+        "clipboard": "Clipboard",
+        "recentlyOpenedFiles": "Recently opened files",
+        "asset": "Asset",
+        "fileExplorer": "File Explorer"
       }
     },
     "chatHistory": {

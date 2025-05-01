@@ -38,6 +38,14 @@
       "bugfixes": "问题修复",
       "improvements": "其他优化",
       "allversions": "所有版本"
+    },
+    "contextMenu": {
+      "workspace": "工作空间",
+      "screenshot": "屏幕截图",
+      "clipboard": "剪贴板",
+      "recentlyOpenedFiles": "最近打开的文件",
+      "asset": "资源",
+      "fileExplorer": "文件资源管理器"
     }
   },
   "chatHistory": {

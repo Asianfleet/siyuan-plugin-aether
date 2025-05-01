@@ -45,3 +45,9 @@
 
 * 完善暗色模式样式
   Improve dark mode style
+
+## v0.0.3-alpha
+
+* 实现思源文件添加到上下文功能
+  Implement the function of adding siyuan files to the context
+  
