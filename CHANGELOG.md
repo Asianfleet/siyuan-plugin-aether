@@ -56,3 +56,7 @@
 * 改善了上下文面板的实现逻辑
   Improve the implementation logic of the context panel
   
+## v0.0.3-beta.1
+
+* Alibaba 提供方中增加对 Qwen3、QwQ 模型的支持
+  Add support for Qwen3 and QwQ models in Alibaba provider

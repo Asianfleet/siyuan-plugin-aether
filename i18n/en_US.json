@@ -7,7 +7,8 @@
           "modelProvider": "Model Provider:",
           "modelSeries": "Model Series:",
           "modelApiKey": "API Key:",
-          "modelName": "Model Name:"
+          "modelName": "Model Name:",
+          "thinkMode": "Think Mode" 
       },
       "customModelConfig": {
         "configName": "Configuration name:",
