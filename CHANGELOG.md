@@ -51,3 +51,8 @@
 * 实现思源文件添加到上下文功能
   Implement the function of adding siyuan files to the context
   
+## v0.0.3-beta
+
+* 改善了上下文面板的实现逻辑
+  Improve the implementation logic of the context panel
+  

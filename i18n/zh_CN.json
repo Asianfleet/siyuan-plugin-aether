@@ -80,7 +80,10 @@
     "contentCopyed": "内容已复制到剪贴板",
     "cannotCopy":"无法复制内容"
   },
+  "message":{
+    "loadingfile": "[Aether] 正在获取思源文件信息..."
+  },
   "others": {
       "pastedImage": "粘贴的图片"
-    }
+  }
 }

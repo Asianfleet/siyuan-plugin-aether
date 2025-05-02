@@ -80,6 +80,9 @@
       "contentCopyed": "Content copied",
       "cannotCopy":"Can not copy content"
     },
+    "message":{
+      "loadingfile": "[Aether] Getting siyuan file info..."
+    },
     "others": {
       "pastedImage": "Pasted image"
     }
