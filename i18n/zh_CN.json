@@ -63,7 +63,8 @@
       "topMenu": {
         "chat": "对话界面",
         "settings": "设置",
-        "history": "历史记录"
+        "history": "历史记录",
+        "prompt": "提示词设置"
       },
       "messageToolBar": {
         "send": "发送",
@@ -75,6 +76,12 @@
       "filePreview": {
         "copyParsedContent": "复制（解析后）内容",
         "closeInterface": "关闭"
+      },
+      "inputToolBar": {
+        "addContext": "添加上下文",
+        "inputHistory": "输入历史记录",
+        "opsmode": "开启/关闭代理模式",
+        "promptSelect": "提示词配置"
       }
   },
   "notification": {
@@ -86,5 +93,16 @@
   },
   "others": {
       "pastedImage": "粘贴的图片"
+  },
+  "promptSetting": {
+    "icon": "SVG图标",
+    "name": "名称",
+    "confirm": "确认",
+    "cancel": "取消",
+    "upLoad": "单击或将SVG文件拖动到该区域",
+    "addMask": {
+      "newMask": "新建模式",
+      "modeDefinition": "模式定义"
+    }
   }
 }

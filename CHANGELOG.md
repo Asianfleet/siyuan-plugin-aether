@@ -60,3 +60,14 @@
 
 * Alibaba 提供方中增加对 Qwen3、QwQ 模型的支持
   Add support for Qwen3 and QwQ models in Alibaba provider
+
+## v0.0.3-beta.2
+
+* 新增提示词配置功能
+  Add prompt configuration function
+* 新增对话历史功能
+  Add conversation history function
+* 修复了会话高度问题
+  Fix session height issue
+* 改善了界面风格
+  Improve interface style

@@ -63,7 +63,8 @@
       "topMenu": {
         "chat": "Chat",
         "settings": "Settings",
-        "history": "Chat History"
+        "history": "Chat History",
+        "prompt": "Prompt"
       },
       "messageToolBar": {
         "send": "send",
@@ -75,6 +76,12 @@
       "filePreview": {
         "copyParsedContent": "Copy (parsed) content",
         "closeInterface": "close"
+      },
+      "inputToolBar": {
+        "addContext": "Add context",
+        "inputHistory": "Input history",
+        "opsmode": "Turn on/off agent mode",
+        "promptSelect": "Prompt word configuration"
       }
     },
     "notification": {
@@ -86,5 +93,16 @@
     },
     "others": {
       "pastedImage": "Pasted image"
+    },
+    "promptSetting": {
+      "icon": "SVG Icon",
+      "name": "Name",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "upLoad": "Click or drag the SVG file to upload to this area",
+      "addMask": {
+        "newMask": "New mode",
+        "modeDefinition": "Mode definition"
+      }
     }
 }
