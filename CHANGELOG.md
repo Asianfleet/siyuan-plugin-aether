@@ -71,3 +71,12 @@
   Fix session height issue
 * 改善了界面风格
   Improve interface style
+
+## v0.0.3-beta.3
+
+* 增加会话界面自动滚动功能，可被用户打断
+  Add automatic scrolling function to the conversation interface, which can be interrupted by the user
+* 改正了错误文案
+  Correct the error text
+* 改善了会话界面风格
+  Improve conversation interface style

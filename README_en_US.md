@@ -24,6 +24,8 @@ Aether is a plugin designed for Siyuan notes software. The plugin adds a button 
 - Style optimization
 - Picture and document input
 - Modification and regeneration of message content in session
+- Custom preset prompt words
+- Conversation History
 
 ## Getting Started
 
