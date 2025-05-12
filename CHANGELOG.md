@@ -84,3 +84,9 @@
 ## v0.0.3-beta.4
 
 * 修复了自定义模型配置无法使用的问题
+  Fix the problem that the custom model configuration cannot be used
+
+## v0.0.3-beta.5
+
+* 修复了关闭笔记本导致找不到id对应内容的错误
+  Fix the error of not finding the content corresponding to the ID due to closing the notebook
