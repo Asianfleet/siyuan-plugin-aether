@@ -64,7 +64,8 @@
         "chat": "Chat",
         "settings": "Settings",
         "history": "Chat History",
-        "prompt": "Prompt"
+        "prompt": "Prompt",
+        "update": "Update Log"
       },
       "messageToolBar": {
         "send": "send",

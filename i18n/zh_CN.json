@@ -64,7 +64,8 @@
         "chat": "对话界面",
         "settings": "设置",
         "history": "历史记录",
-        "prompt": "提示词设置"
+        "prompt": "提示词设置",
+        "update": "更新日志"
       },
       "messageToolBar": {
         "send": "发送",
@@ -92,7 +93,7 @@
     "loadingfile": "[Aether] 正在获取思源文件信息..."
   },
   "others": {
-      "pastedImage": "粘贴的图片"
+    "pastedImage": "粘贴的图片"
   },
   "promptSetting": {
     "icon": "SVG图标",

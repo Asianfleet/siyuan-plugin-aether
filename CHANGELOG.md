@@ -101,3 +101,14 @@
 
 * 改进Markdown表格渲染样式
   Improve Markdown table rendering style
+
+## v0.0.3-beta.7
+
+* 新增划词栏按钮（右侧），可将选中内容添加到对话框
+  Add a button (on the right) to the selection bar, which can add the selected content to the dialog box
+
+* 增加菜单按钮，可随时查看更新记录
+  Add a menu button to view the update log at any time
+
+* 改进作为独立窗口的窗口样式
+  Improve the window style as an independent window
