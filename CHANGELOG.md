@@ -90,3 +90,14 @@
 
 * 修复了关闭笔记本导致找不到id对应内容的错误
   Fix the error of not finding the content corresponding to the ID due to closing the notebook
+
+## v0.0.3-beta.6
+
+* 新增独立窗口功能，在右侧边栏右击 Aether 图标可选择将该窗口与思源主窗口分离
+  Add independent window function, right-click the Aether icon in the right sidebar to choose to separate this window from the Siyuan main window
+
+* 新增公式渲染
+  Add formula rendering
+
+* 改进Markdown表格渲染样式
+  Improve Markdown table rendering style

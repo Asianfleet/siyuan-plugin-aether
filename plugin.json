@@ -2,7 +2,7 @@
   "name": "siyuan-plugin-aether",
   "author": "Asianfleet",
   "url": "https://github.com/Asianfleet/siyuan-plugin-aether",
-  "version": "0.0.3-beta.5",
+  "version": "0.0.3-beta.6",
   "minAppVersion": "3.0.12",
   "backends": [
     "windows",
@@ -10,7 +10,7 @@
     "darwin"
   ],
   "frontends": [
-    "desktop"
+    "all"
   ],
   "displayName": {
     "en_US": "Aether",
