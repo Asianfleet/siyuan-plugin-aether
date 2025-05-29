@@ -112,3 +112,11 @@
 
 * 改进作为独立窗口的窗口样式
   Improve the window style as an independent window
+
+## v0.0.3-beta.8
+
+* 添加块菜单按钮，可将选中块内容添加至输入框
+  Add a block menu button, which can add the selected block content to the input box
+
+* 改进界面样式
+  Improve interface style
