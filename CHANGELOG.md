@@ -120,3 +120,8 @@
 
 * 改进界面样式
   Improve interface style
+
+## v0.0.3-beta.9
+
+* 改进了 OpenAI Compatible 模型的添加逻辑。（之前的版本中，最后添加模型名称时，需要点击左侧加号才能保存，否则无反应）
+  Improve the logic of adding OpenAI Compatible models. (In previous versions, when adding the model name at the end, you need to click the left plus sign to save, otherwise there will be no response.)
