@@ -100,7 +100,7 @@
     "name": "名称",
     "confirm": "确认",
     "cancel": "取消",
-    "upLoad": "单击或将SVG文件拖动到该区域",
+    "upLoad": "单击或将图片文件拖动到该区域",
     "addMask": {
       "newMask": "新建模式",
       "modeDefinition": "模式定义"

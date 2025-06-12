@@ -125,3 +125,13 @@
 
 * 改进了 OpenAI Compatible 模型的添加逻辑。（之前的版本中，最后添加模型名称时，需要点击左侧加号才能保存，否则无反应）
   Improve the logic of adding OpenAI Compatible models. (In previous versions, when adding the model name at the end, you need to click the left plus sign to save, otherwise there will be no response.)
+
+## v0.0.3-beta.10
+
+* 提示词图标支持非svg，添加了默认图标
+  Prompt icon supports non-svg, added default icon
+
+## v0.0.3-beta.11
+
+* 改进了消息状态卡片的展开与缩小样式；改进了消息状态卡片以及代码块的颜色样式
+  Improve the style of expanding and shrinking message status cards; improve the color style of message status cards and code blocks

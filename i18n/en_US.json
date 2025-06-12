@@ -100,7 +100,7 @@
       "name": "Name",
       "confirm": "Confirm",
       "cancel": "Cancel",
-      "upLoad": "Click or drag the SVG file to upload to this area",
+      "upLoad": "Click or drag the image file to upload to this area",
       "addMask": {
         "newMask": "New mode",
         "modeDefinition": "Mode definition"
