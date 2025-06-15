@@ -135,3 +135,8 @@
 
 * 改进了消息状态卡片的展开与缩小样式；改进了消息状态卡片以及代码块的颜色样式
   Improve the style of expanding and shrinking message status cards; improve the color style of message status cards and code blocks
+
+## v0.0.3-beta.12
+
+* 修复了插件会影响思源笔记本中代码块颜色样式的问题
+  Fixed the problem that the plugin affected the color style of code blocks in the notebook

@@ -96,7 +96,7 @@
     "pastedImage": "粘贴的图片"
   },
   "promptSetting": {
-    "icon": "SVG图标",
+    "icon": "图标",
     "name": "名称",
     "confirm": "确认",
     "cancel": "取消",
