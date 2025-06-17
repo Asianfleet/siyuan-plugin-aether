@@ -140,3 +140,8 @@
 
 * 修复了插件会影响思源笔记本中代码块颜色样式的问题
   Fixed the problem that the plugin affected the color style of code blocks in the notebook
+
+## v0.0.3-beta.13
+
+* 进一步修复了插件会影响思源笔记本中代码块颜色样式的问题
+  Further fixed the problem that the plugin affected the color style of code blocks in the notebook
