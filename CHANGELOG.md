@@ -154,3 +154,10 @@
   Model save logic reconstruction (latest usage method see documentation)
 * 改进界面样式
   Improve interface style
+
+## v0.1.0-alpha.1
+
+* 修复了插件导致思源笔记表格样式不受控制的问题
+  Fixed the problem that the plugin caused the table style of Siyuan notes to be uncontrollable
+* 改进界面样式
+  Improve interface style
