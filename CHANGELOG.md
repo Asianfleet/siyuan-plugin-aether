@@ -145,3 +145,12 @@
 
 * 进一步修复了插件会影响思源笔记本中代码块颜色样式的问题
   Further fixed the problem that the plugin affected the color style of code blocks in the notebook
+
+## v0.1.0-alpha
+
+* 新增插件设置页面（右上新增对应角图标），目前支持模型配置、显示设置与对话设置"
+  Add plugin settings page (new corresponding corner icon in the upper right corner), currently supports model configuration, display settings and conversation settings
+* 模型保存逻辑重构（最新使用方法见说明文档）
+  Model save logic reconstruction (latest usage method see documentation)
+* 改进界面样式
+  Improve interface style

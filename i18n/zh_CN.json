@@ -64,7 +64,7 @@
         "chat": "对话界面",
         "settings": "设置",
         "history": "历史记录",
-        "prompt": "提示词设置",
+        "prompt": "提示词管理",
         "update": "更新日志"
       },
       "messageToolBar": {
