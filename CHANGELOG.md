@@ -161,3 +161,17 @@
   Fixed the problem that the plugin caused the table style of Siyuan notes to be uncontrollable
 * 改进界面样式
   Improve interface style
+
+## v0.1.0-alpha.2
+
+* 改进界面样式
+  Improve interface style
+
+## v0.1.0-alpha.3
+
+* 修复了屏幕截图的多显示器支持问题
+  Fixed the multi-monitor support issue for screen capture
+* 改进了界面样式
+  Improve interface style
+* 删除了不常用的内置模型配置
+  Deleted the rarely used built-in model configuration
