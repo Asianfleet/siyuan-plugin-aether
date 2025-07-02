@@ -175,3 +175,21 @@
   Improve interface style
 * 删除了不常用的内置模型配置
   Deleted the rarely used built-in model configuration
+
+## v0.2.0-alpha
+
+* 在思源顶部菜单栏右上角新增功能按键
+  * 新增快速对话功能，可在顶部唤出相应窗口（不会保存记录到本地）
+  * 新增行内对话功能， 可将对话回复直接输出在思源文件内
+* 修复了模型切换时 URL 更新不及时的问题
+* 优化了插件样式
+* 删除了不常用的内置模型配置
+* 暂时取消公式渲染功能（下个版本将重新启用，抱歉造成不便）
+
+* Added a new functional button in the top right corner of the Siyuan menu bar  
+  * Added a quick chat feature that can summon a corresponding window from the top (does not save history locally)  
+  * Added an inline chat feature that can output chat responses directly within Siyuan documents  
+* Fixed the issue where the URL does not update promptly when switching models  
+* Optimized plugin styles  
+* Removed unnecessary built-in model configurations
+* Temporarily disable the formula rendering feature (this functionality will be re-enabled in the next version, sorry for the inconvenience caused).
