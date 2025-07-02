@@ -38,7 +38,8 @@
         "newfeatures": "New features",
         "bugfixes": "Bug fixes",
         "improvements": "Improvements",
-        "allversions": "All versions"
+        "allversions": "All versions",
+        "extra": "Extra Info"
       },
       "contextMenu": {
         "workspace": "Workspace",

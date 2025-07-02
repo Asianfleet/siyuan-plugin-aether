@@ -38,7 +38,8 @@
       "newfeatures": "新增功能",
       "bugfixes": "问题修复",
       "improvements": "其他优化",
-      "allversions": "所有版本"
+      "allversions": "所有版本",
+      "extra": "额外说明"
     },
     "contextMenu": {
       "workspace": "工作空间",

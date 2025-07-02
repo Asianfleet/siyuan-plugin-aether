@@ -181,15 +181,21 @@
 * 在思源顶部菜单栏右上角新增功能按键
   * 新增快速对话功能，可在顶部唤出相应窗口（不会保存记录到本地）
   * 新增行内对话功能， 可将对话回复直接输出在思源文件内
-* 修复了模型切换时 URL 更新不及时的问题
+* 修复了模型切换时 URL 依旧更新不及时，需要重启思源的问题
 * 优化了插件样式
 * 删除了不常用的内置模型配置
 * 暂时取消公式渲染功能（下个版本将重新启用，抱歉造成不便）
+* 短期内不再添加新功能，以修复 bug 和改善插件稳定性为主
+* 遇到明显 bug， 请重装插件，并且可以进行反馈，如果造成不便敬请谅解
+* 由于各提供方 API 的调用参数各不相同，暂无法做到使用模型的全部功能（敬请等待后续优化）
 
-* Added a new functional button in the top right corner of the Siyuan menu bar  
-  * Added a quick chat feature that can summon a corresponding window from the top (does not save history locally)  
-  * Added an inline chat feature that can output chat responses directly within Siyuan documents  
-* Fixed the issue where the URL does not update promptly when switching models  
-* Optimized plugin styles  
-* Removed unnecessary built-in model configurations
-* Temporarily disable the formula rendering feature (this functionality will be re-enabled in the next version, sorry for the inconvenience caused).
+* Added a new function button in the top menu bar of EverEdit  
+  * Added a "Quick Chat" feature, which can pop up a corresponding window at the top (the chat records will not be saved locally)  
+  * Added an inline chat feature, which can output the chat responses directly within the EverEdit file  
+* Fixed the issue where the URL was not updated promptly when switching models, requiring a restart of EverEdit  
+* Optimized the plugin's style  
+* Removed less commonly used built-in model configurations  
+* Temporarily disabled the formula rendering function (it will be re-enabled in the next version, sorry for the inconvenience)  
+* In the short term, no new features will be added, focusing on bug fixes and improving plugin stability  
+* If you encounter any obvious bugs, please reinstall the plugin and provide feedback. We apologize for any inconvenience caused  
+* Due to the different API parameters from various service providers, it is temporarily not possible to use all the functions of the model (please wait for future optimizations)
