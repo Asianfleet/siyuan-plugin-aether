@@ -200,7 +200,7 @@
 * If you encounter any obvious bugs, please reinstall the plugin and provide feedback. We apologize for any inconvenience caused  
 * Due to the different API parameters from various service providers, it is temporarily not possible to use all the functions of the model (please wait for future optimizations)
 
-## 0.10.0
+## v0.10.0
 
 * 模型提供方可整体隐藏
 * 可隐藏单个模型
@@ -221,3 +221,9 @@
 * The model configuration logic has been refactored, so this update will delete existing configurations. We apologize for any inconvenience caused.
 * Due to the significant differences in billing logic among various providers, the plugin will no longer support cost calculations, only token calculations.
 * The formula rendering function is still being optimized and will not be available in this version.
+
+## v0.10.1
+
+* 修复了行内对话框不显示内容的问题
+
+* Fixed the issue where the inline dialog box does not display content
