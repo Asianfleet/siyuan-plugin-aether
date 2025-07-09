@@ -199,3 +199,25 @@
 * In the short term, no new features will be added, focusing on bug fixes and improving plugin stability  
 * If you encounter any obvious bugs, please reinstall the plugin and provide feedback. We apologize for any inconvenience caused  
 * Due to the different API parameters from various service providers, it is temporarily not possible to use all the functions of the model (please wait for future optimizations)
+
+## 0.10.0
+
+* 模型提供方可整体隐藏
+* 可隐藏单个模型
+* 支持模型收藏
+* 支持模型额外参数添加（如 enable_thinking 等控制模型思考的参数）
+* 新增 Anthropic 以及火山引擎内置提供方
+* 优化了插件样式
+* 模型配置逻辑进行了重构，因此本次更新会删除已有配置，造成的不便敬请谅解
+* 由于各提供商计费逻辑差异较大，插件将不再支持费用计算，仅支持 token 计算
+* 公式渲染功能仍在优化中，该版本暂不开放
+
+* Model providers can be hidden as a whole
+* Individual models can be hidden
+* Support for model favorites
+* Support for adding additional model parameters (such as enable_thinking, etc., which control the model's thinking)
+* Added built-in providers for Anthropic and Volcano Engine
+* Optimized the plugin's style
+* The model configuration logic has been refactored, so this update will delete existing configurations. We apologize for any inconvenience caused.
+* Due to the significant differences in billing logic among various providers, the plugin will no longer support cost calculations, only token calculations.
+* The formula rendering function is still being optimized and will not be available in this version.
