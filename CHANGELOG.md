@@ -227,3 +227,11 @@
 * 修复了行内对话框不显示内容的问题
 
 * Fixed the issue where the inline dialog box does not display content
+
+## v0.10.2
+
+* 修复了弹出无法读取模型配置且插件无法使用的问题
+* 该问题是由于旧版本存储的当前模型配置与新版本的配置结构产生了冲突。现已完善数据迁移逻辑
+
+* Fixed the issue where the popup could not read the model configuration and the plugin could not be used.
+* This issue was caused by a conflict between the configuration structure of the old version storage and the new version. The data migration logic has now been improved.
