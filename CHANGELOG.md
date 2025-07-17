@@ -235,3 +235,15 @@
 
 * Fixed the issue where the popup could not read the model configuration and the plugin could not be used.
 * This issue was caused by a conflict between the configuration structure of the old version storage and the new version. The data migration logic has now been improved.
+
+## v0.10.3
+
+* 添加思源块到输入框功能支持自动过滤HTML标签
+* 添加思源块到输入框功能支持选择文本格式（Markdown、纯文本、HTML）
+* 改进了插件样式
+* 在0.10.0版本中，所有模型提供方默认隐藏，因此更新完成时模型面板时空白的。本次更新在面板中添加了提示信息
+
+* The feature of adding a SiYuan block to the input box supports automatic filtering of HTML tags.
+* The feature to add a SiYuan block to the input box supports selecting text formats (markdown, plain text, html).
+* Improved the plugin style  
+* In version 0.10.0, all model providers are hidden by default, so the model panel is blank after the update is completed. This update adds prompt information to the panel.
