@@ -247,3 +247,9 @@
 * The feature to add a SiYuan block to the input box supports selecting text formats (markdown, plain text, html).
 * Improved the plugin style  
 * In version 0.10.0, all model providers are hidden by default, so the model panel is blank after the update is completed. This update adds prompt information to the panel.
+
+## v0.10.4
+
+* 修复了 OpenRouter 以及 API易提供商模型的 token 计算问题
+
+* Fixed the token calculation issue for OpenRouter and the API provider model.
