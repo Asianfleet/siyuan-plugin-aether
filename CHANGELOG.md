@@ -271,3 +271,17 @@
 
 * Input box added custom conversation parameters button
 * Support convenient override of conversation parameters in plugin settings
+
+## v0.13.0
+
+* 支持对话中重置上下文
+* 使用方法：模型输出消息右下方的工具栏→“更多选项”→“重置上下文”
+* 重置上下文后，当前对话的上下文会被清空，模型会根据新的输入进行问答，同时会出现“新话题”标志
+* 点击“新话题”标志可撤销重置上下文操作
+* 修复了消息工具栏“编辑内容”中的“重新生成”选项不可用的问题
+
+* Support for resetting the context in the conversation
+* How to use: Model output message bottom right toolbar → 'More options' → 'Reset context'
+* After resetting the context, the current conversation's context will be cleared, and the model will answer based on new input, while a 'New topic' label will appear
+* Clicking the 'New topic' label will cancel the reset context operation
+* Fixed the problem that the "Re-generate" option in the "Edit content" toolbar is not available
