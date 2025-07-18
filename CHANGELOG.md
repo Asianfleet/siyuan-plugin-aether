@@ -253,3 +253,13 @@
 * 修复了 OpenRouter 以及 API易提供商模型的 token 计算问题
 
 * Fixed the token calculation issue for OpenRouter and the API provider model.
+
+## v0.11.0
+
+* 添加了窗口设置按钮（右上角设置栏）
+* 可将插件侧边窗口分离为独立窗口"
+* 独立窗口时支持快速居左、居中、居右布局、支持置于顶层
+
+* Added a window settings button (top right settings bar)
+* Can detach the plugin side window into an independent window
+* When the window is detached, it supports quick left, center, right layout, and supports being on top
