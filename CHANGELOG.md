@@ -263,3 +263,11 @@
 * Added a window settings button (top right settings bar)
 * Can detach the plugin side window into an independent window
 * When the window is detached, it supports quick left, center, right layout, and supports being on top
+
+## v0.12.0
+
+* 输入框添加了自定义对话参数按钮
+* 支持便捷覆盖插件设置中的对话参数
+
+* Input box added custom conversation parameters button
+* Support convenient override of conversation parameters in plugin settings
