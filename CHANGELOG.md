@@ -285,3 +285,9 @@
 * After resetting the context, the current conversation's context will be cleared, and the model will answer based on new input, while a 'New topic' label will appear
 * Clicking the 'New topic' label will cancel the reset context operation
 * Fixed the problem that the "Re-generate" option in the "Edit content" toolbar is not available
+
+## v0.13.5
+
+* 公式渲染功能开放
+
+* The formula rendering function is now open
