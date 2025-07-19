@@ -292,7 +292,7 @@
 
 * The formula rendering function is now open
 
-## v0.13.6
+## v0.13.7
 
 * 修复了快速对话和行内对话无法使用的问题（相关配置与重置上下文逻辑存在冲突）
 
