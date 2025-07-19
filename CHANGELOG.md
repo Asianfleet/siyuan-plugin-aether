@@ -291,3 +291,9 @@
 * 公式渲染功能开放
 
 * The formula rendering function is now open
+
+## v0.13.6
+
+* 修复了快速对话和行内对话无法使用的问题（相关配置与重置上下文逻辑存在冲突）
+
+* Fixed the issue where quick conversations and inline conversations could not be used (related configuration and reset context logic exist conflicts)
