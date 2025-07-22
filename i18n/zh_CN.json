@@ -45,9 +45,9 @@
       "workspace": "工作空间",
       "screenshot": "屏幕截图",
       "clipboard": "剪贴板",
-      "recentlyOpenedFiles": "最近打开的文件",
+      "recentdocuments": "最近打开的文件",
       "asset": "资源",
-      "fileExplorer": "文件资源管理器"
+      "folder": "文件资源管理器"
     }
   },
   "chatHistory": {
@@ -80,7 +80,7 @@
         "closeInterface": "关闭"
       },
       "inputToolBar": {
-        "addContext": "添加上下文",
+        "addContext": "输入 '@' 添加上下文",
         "inputHistory": "输入历史记录",
         "opsmode": "开启/关闭代理模式",
         "promptSelect": "提示词配置"

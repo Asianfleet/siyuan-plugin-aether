@@ -297,3 +297,11 @@
 * 修复了快速对话和行内对话无法使用的问题（相关配置与重置上下文逻辑存在冲突）
 
 * Fixed the issue where quick conversations and inline conversations could not be used (related configuration and reset context logic exist conflicts)
+
+## v0.14.0
+
+* 侧栏输入框支持“@”键快捷调出上下文面板
+* 上下文面板支持上下键切换选项、Esc 切换层级、Enter 键选择
+
+* The sidebar input box supports the "@ " key to quickly call out the context panel
+* The context panel supports switching options with the up and down keys, Esc key to switch levels, Enter key to select

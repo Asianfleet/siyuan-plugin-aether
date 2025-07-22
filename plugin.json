@@ -2,7 +2,7 @@
   "name": "siyuan-plugin-aether",
   "author": "Asianfleet",
   "url": "https://github.com/Asianfleet/siyuan-plugin-aether",
-  "version": "0.13.7",
+  "version": "0.14.0",
   "minAppVersion": "3.0.12",
   "backends": [
     "windows",

@@ -45,9 +45,9 @@
         "workspace": "Workspace",
         "screenshot": "Screenshot",
         "clipboard": "Clipboard",
-        "recentlyOpenedFiles": "Recently opened files",
+        "recentdocuments": "Recently opened files",
         "asset": "Asset",
-        "fileExplorer": "File Explorer"
+        "folder": "File Explorer"
       }
     },
     "chatHistory": {
@@ -80,7 +80,7 @@
         "closeInterface": "close"
       },
       "inputToolBar": {
-        "addContext": "Add context",
+        "addContext": "Input '@' to add context",
         "inputHistory": "Input history",
         "opsmode": "Turn on/off agent mode",
         "promptSelect": "Prompt word configuration"
