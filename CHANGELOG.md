@@ -305,3 +305,9 @@
 
 * The sidebar input box supports the "@ " key to quickly call out the context panel
 * The context panel supports switching options with the up and down keys, Esc key to switch levels, Enter key to select
+
+## v0.14.1
+
+* 修复侧栏输入框中占位符的错误（“^C”改为“^V”）
+
+* Fix the error in the placeholder of the sidebar input box (“^C” changed to “^V”)
