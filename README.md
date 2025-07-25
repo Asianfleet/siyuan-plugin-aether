@@ -14,9 +14,8 @@ Aether —— Where Dialogue Meets Depth.
 
 ## 简介
 
-Aether 是一个为思源笔记软件设计的插件。该插件在侧边栏添加了一个按钮，点击后可以弹出一个侧边视图，能够与大型语言模型进行对话（后续将会继续增加与思源深度结合的功能）。
-⚠️ **注意：** 由于个人时间关系，当前仅是**极为早期**的版本。
-⚠️ **注意：** 在版本稳定下来之前会清空个人配置以及对话记录，请及时将对话信息保存到其他地方。
+Aether 是一个为思源笔记设计的基于 LLM 的增强插件，可支持侧边栏对话、独立窗口对话，也可以将 LLM 生成的内容直接输出在在思源文件内（将会持续增加与思源深度结合的功能）。
+⚠️ **注意：** 由于个人时间关系，目前插件还未完全稳定，在稳定之前可能会清空个人配置以及对话记录，请及时将重要信息保存到其他地方。
 
 ## 最近更新实现的功能
 
@@ -31,7 +30,29 @@ Aether 是一个为思源笔记软件设计的插件。该插件在侧边栏添�
 
 <p align="center">
     <img src="asset/start.png" alt="catenaconf logo" width=90%/>
-    <p align="center">点击这个按钮即可打开对话界面</p>
+    <p align="center">右侧按钮：侧边栏对话；上侧按钮：其他对话方式</p>
+</p>
+
+## 核心界面
+
+<p align="center">
+    <img src="asset/sidebar.png" alt="catenaconf logo" width=90%/>
+    <p align="center">侧边栏界面</p>
+</p>
+
+<p align="center">
+    <img src="asset/instant.png" alt="catenaconf logo" width=90%/>
+    <p align="center">快速对话界面</p>
+</p>
+
+<p align="center">
+    <img src="asset/inline.png" alt="catenaconf logo" width=90%/>
+    <p align="center">行内对话界面</p>
+</p>
+
+<p align="center">
+    <img src="asset/standalone.png" alt="catenaconf logo" width=90%/>
+    <p align="center">独立窗口界面</p>
 </p>
 
 ## 使用文档
@@ -43,4 +64,4 @@ Aether 是一个为思源笔记软件设计的插件。该插件在侧边栏添�
 <p align="center">
     <img src="asset/donate.jpg" alt="catenaconf logo" width=50%/>
 </p>
-<p align="center">如果你喜欢这个插件，可以赞赏一下作者嗷~</p>
+<p align="center">如果你喜欢这个插件，可以赞赏一下作者嗷~ :D</p>

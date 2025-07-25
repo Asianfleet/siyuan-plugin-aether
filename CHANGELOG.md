@@ -311,3 +311,13 @@
 * 修复侧栏输入框中占位符的错误（“^C”改为“^V”）
 
 * Fix the error in the placeholder of the sidebar input box (“^C” changed to “^V”)
+
+## v0.15.0
+
+* 修复了插件导致思源界面加载时间增加的问题
+* 修复了上下文选择面板的选项无法点击的问题
+* 当退出 @ 键快捷调出的上下文面板后，光标自动还原到输入框中
+
+* Fixed the issue causing the loading time of the Siyuan interface to increase due to the plugin.
+* Fixed the issue where the options in the context selection panel could not be clicked.
+* When exiting the @ key shortcut to call out the context panel, the cursor will automatically be restored to the input box.
