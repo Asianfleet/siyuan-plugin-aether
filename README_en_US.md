@@ -52,7 +52,7 @@ Aether is an LLM-based enhancement plugin designed for SiYuan Note, which suppor
 
 <p align="center">
     <img src="asset/standalone.png" alt="catenaconf logo" width=90%/>
-    <p align="center">Standalone window interface</p>
+    <p align="center">Standalone window interface (currently only supported on desktop version)</p>
 </p>
 
 ## Usage Documentation

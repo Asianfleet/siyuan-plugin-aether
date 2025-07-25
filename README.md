@@ -52,7 +52,7 @@ Aether 是一个为思源笔记设计的基于 LLM 的增强插件，可支持�
 
 <p align="center">
     <img src="asset/standalone.png" alt="catenaconf logo" width=90%/>
-    <p align="center">独立窗口界面</p>
+    <p align="center">独立窗口界面（目前只支持桌面端）</p>
 </p>
 
 ## 使用文档
