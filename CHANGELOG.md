@@ -317,7 +317,19 @@
 * 修复了插件导致思源界面加载时间增加的问题
 * 修复了上下文选择面板的选项无法点击的问题
 * 当退出 @ 键快捷调出的上下文面板后，光标自动还原到输入框中
+* 上下文面板的键盘切换功能仍存在问题，将在未来几个版本中修复
 
 * Fixed the issue causing the loading time of the Siyuan interface to increase due to the plugin.
 * Fixed the issue where the options in the context selection panel could not be clicked.
 * When exiting the @ key shortcut to call out the context panel, the cursor will automatically be restored to the input box.
+* The keyboard switching function of the context panel still has issues and will be fixed in future versions.
+
+## v0.16.0
+
+* 支持对话中 mermaid 流程图渲染
+* 支持代码块插入到思源文档中
+* 代码块插入到思源文档前，需用鼠标点击一下待插入的位置（此位置应是一个思源块）
+
+* Support mermaid flowchart rendering in conversation
+* Support inserting code blocks into Siyuan documents
+* Before inserting code blocks into Siyuan documents, you need to click the position where you want to insert with the mouse (this position should be a Siyuan block)
