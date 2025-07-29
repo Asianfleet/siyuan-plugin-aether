@@ -333,3 +333,15 @@
 * Support mermaid flowchart rendering in conversation
 * Support inserting code blocks into Siyuan documents
 * Before inserting code blocks into Siyuan documents, you need to click the position where you want to insert with the mouse (this position should be a Siyuan block)
+
+## v0.16.5
+
+* 添加了输入框便捷插入设置，支持替换和追加两种模式
+* 修复了对话气泡显示问题：输入框中的单次回车不显示换行（需连续回车两次）
+* 优化了插件设置界面样式
+* 优化了插件对话气泡的 Markdown 渲染样式
+
+* Added input box convenient insertion settings, supporting replace and append two modes
+* Fixed the dialog bubble display issue: single carriage return in the input box does not display line breaks (need to press enter twice in a row)
+* Optimized plugin settings interface style
+* Optimized plugin dialog bubble Markdown rendering style
