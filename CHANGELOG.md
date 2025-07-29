@@ -345,3 +345,13 @@
 * Fixed the dialog bubble display issue: single carriage return in the input box does not display line breaks (need to press enter twice in a row)
 * Optimized plugin settings interface style
 * Optimized plugin dialog bubble Markdown rendering style
+
+## v0.16.7
+
+* 整个模型回复可插入到文档中
+* 修复了输入框便捷插入的问题（内部逻辑冲突）
+* 优化了插件设置界面样式
+
+* The entire model response can be inserted into the document
+* Fixed the issue of convenient input box insertion (internal logic conflict)
+* Optimized the plugin settings interface style
