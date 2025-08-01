@@ -2,7 +2,7 @@
   "name": "siyuan-plugin-aether",
   "author": "Asianfleet",
   "url": "https://github.com/Asianfleet/siyuan-plugin-aether",
-  "version": "0.16.7",
+  "version": "0.16.8",
   "minAppVersion": "3.0.12",
   "backends": [
     "windows",
@@ -18,8 +18,8 @@
     "zh_CN": "Aether（以太）"
   },
   "description": {
-    "en_US": "Sidebar AI Dialogue",
-    "zh_CN": "侧边栏 AI 对话"
+    "en_US": "Sidebar AI Dialogue, Siyuan Notebook Chat, Quick Chat, Independent Window Chat, Chat Content Insertion into Siyuan Files",
+    "zh_CN": "侧栏 AI 对话、思源笔记内对话、快速对话、独立窗口对话、对话内容插入思源文件"
   },
   "readme": {
     "en_US": "README_en_US.md",

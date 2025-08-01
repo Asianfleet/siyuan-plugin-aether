@@ -355,3 +355,17 @@
 * The entire model response can be inserted into the document
 * Fixed the issue of convenient input box insertion (internal logic conflict)
 * Optimized the plugin settings interface style
+
+## v0.16.8
+
+侧边输入框的换行/发送逻辑可调节，提供三种选项：
+
+1. Shift + Enter 换行，Enter 发送
+2. Shift + Enter 发送，Enter 换行
+3. Enter 换行，Tab 发送
+
+The newline/send logic of the sidebar input box can be adjusted, providing three options:
+
+1. Shift + Enter for newline, Enter to send
+2. Shift + Enter to send, Enter for newline
+3. Enter for newline, Tab to send
