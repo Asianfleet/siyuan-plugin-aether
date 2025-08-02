@@ -369,3 +369,13 @@ The newline/send logic of the sidebar input box can be adjusted, providing three
 1. Shift + Enter for newline, Enter to send
 2. Shift + Enter to send, Enter for newline
 3. Enter for newline, Tab to send
+
+## v0.17.0
+
+* 添加上下文时支持将思源文档、页签拖拽到输入框
+* 暂不支持将笔记本拖拽到输入框
+* 拖动的文档如果有子文档，则子文档不会添加到上下文
+
+* Support dragging Siyuan documents and tabs to the input box when adding context
+* Dragging notebooks to the input box is not supported yet
+* If the dragged document has sub-documents, the sub-documents will not be added to the context
