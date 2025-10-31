@@ -1,110 +1,251 @@
 {
-  "lang": "zh-CN",
-  "main": {
-    "newChat": "新对话",
-    "typeSomething": "输入一些内容...",
-    "modelConfig": {
-        "modelProvider": "提供方：",
-        "modelSeries": "模型系列：",
-        "modelApiKey": "API 密钥：",
-        "modelName": "模型名称：",
-        "thinkMode": "思考模式"
-    },
-    "customModelConfig": {
-      "configName": "配置名称：",
-      "currentConfig": "当前配置：",
-      "modelOptions": "模型选项：",
-      "baseURL": "URL：",
-      "ApiKey": "API密钥：",
-      "waitForSave": "等待保存...",
-      "newConfig": "新建配置"
-    },
-    "messageComponent": {
-      "deepthinking": "深度思考中...",
-      "deepthinked": "已完成深度思考",
-      "cancelEdit": "取消",
-      "save": "保存",
-      "saveAndSend": "保存并发送",
-      "reGenerate": "重新生成"
-    },
-    "placeHolder": {
-      "apikey": "请输入API密钥...",
-      "model": "请输入模型名称...",
-      "baseURL": "请输入URL（截止到/v1）...",
-      "config": "请输入配置名称..." 
-    },
-    "update": {
-      "title": "更新日志",
-      "newfeatures": "新增功能",
-      "bugfixes": "问题修复",
-      "improvements": "其他优化",
-      "allversions": "所有版本",
-      "extra": "额外说明"
-    },
-    "contextMenu": {
-      "workspace": "工作空间",
-      "screenshot": "屏幕截图",
-      "clipboard": "剪贴板",
-      "recentdocuments": "最近打开的文件",
-      "asset": "资源",
-      "folder": "文件资源管理器"
-    }
-  },
-  "chatHistory": {
-    "title": "对话历史"
-  },
-  "toolTips": {
-      "messageBlock": {
-        "regenMessage": "重新生成",
-        "regenBelow": "在下方重新生成",
-        "editContent": "编辑内容",
-        "moreOptions": "更多选项",
-        "copyContent": "复制内容"
-      },
-      "topMenu": {
-        "chat": "对话界面",
-        "settings": "设置",
-        "history": "历史记录",
-        "prompt": "提示词管理",
-        "update": "更新日志"
-      },
-      "messageToolBar": {
-        "send": "发送",
-        "moreOptions": {
-          "ref": "引用",
-          "delete": "删除"
-        }
-      },
-      "filePreview": {
-        "copyParsedContent": "复制（解析后）内容",
-        "closeInterface": "关闭"
-      },
-      "inputToolBar": {
-        "addContext": "输入 '@' 添加上下文",
-        "inputHistory": "输入历史记录",
-        "opsmode": "开启/关闭代理模式",
-        "promptSelect": "提示词配置"
-      }
-  },
-  "notification": {
-    "contentCopyed": "内容已复制到剪贴板",
-    "cannotCopy":"无法复制内容"
-  },
-  "message":{
-    "loadingfile": "[Aether] 正在获取思源文件信息..."
-  },
-  "others": {
-    "pastedImage": "粘贴的图片"
-  },
-  "promptSetting": {
-    "icon": "图标",
-    "name": "名称",
-    "confirm": "确认",
+  "common": {
     "cancel": "取消",
-    "upLoad": "单击或将图片文件拖动到该区域",
-    "addMask": {
-      "newMask": "新建模式",
-      "modeDefinition": "模式定义"
-    }
+    "save": "保存",
+    "confirm": "确认",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "name": "名称",
+    "show": "显示",
+    "hide": "隐藏",
+    "settings": "设置",
+    "close": "关闭",
+    "operations": "操作",
+    "copy": "复制",
+    "moreOptions": "更多选项"
+  },
+  "menu": {
+    "chat": "对话",
+    "settings": "设置",
+    "history": "对话历史",
+    "newChat": "新对话",
+    "windowSettings": "窗口设置",
+    "changelog": "更新日志"
+  },
+  "provider": {
+    "title": "提供方",
+    "addProvider": "添加提供商名称",
+    "providerName": "提供方名称",
+    "unknownProvider": "未知提供方",
+    "apiKey": "API 密钥",
+    "apiUrl": "API 地址",
+    "enterProviderName": "请输入提供商名称",
+    "enterApiKey": "请输入 API 密钥",
+    "enterApiUrl": "请输入 API 地址",
+    "useProxy": "使用思源代理",
+    "useProxyTip": "启用后通过思源代理发送请求，适用于 Docker 环境避免跨域问题"
+  },
+  "model": {
+    "addModel": "新建模型",
+    "editModel": "编辑模型选项",
+    "modelName": "模型名称",
+    "modelList": "模型列表",
+    "unknownModel": "未知模型",
+    "noModels": "暂无模型配置",
+    "contextWindow": "上下文长度",
+    "abilities": "能力",
+    "status": "状态",
+    "apiParams": "额外 API 参数",
+    "enterModelName": "请输入模型名称",
+    "enterContextWindow": "请输入上下文长度",
+    "enterApiParams": "请输入 JSON 格式的 API 参数",
+    "modelNameRequired": "请输入模型名称",
+    "contextWindowRequired": "请输入上下文长度",
+    "contextWindowMinError": "上下文长度必须大于0",
+    "apiParamsFormatError": "API 参数格式错误，请输入有效的 JSON 格式",
+    "onlineModels": "在线模型",
+    "fetchingModels": "正在获取模型列表...",
+    "fetchModelsFailed": "获取模型列表失败",
+    "noOnlineModels": "暂无可用的在线模型",
+    "addToLocal": "添加",
+    "alreadyExists": "已存在",
+    "fetchModelsSuccess": "获取模型列表成功",
+    "missingApiConfig": "缺少 API 配置信息",
+    "fetchError": "未知错误",
+    "responseFormatError": "返回数据格式错误",
+    "fetchModelsFailedWith": "获取模型列表失败",
+    "modelAdded": "已添加模型",
+    "thinking": "思考",
+    "vision": "视觉",
+    "audio": "音频",
+    "toolUse": "工具调用",
+    "visible": "可见",
+    "favourite": "收藏",
+    "searchModel": "搜索模型...",
+    "favoriteModels": "收藏模型",
+    "noAvailableModels": "没有可用的模型",
+    "checkSearchOrConfig": "请检查搜索条件或模型配置"
+  },
+  "input": {
+    "enterMessage": "请输入消息内容",
+    "send": "发送"
+  },
+  "validation": {
+    "required": "此字段为必填项",
+    "providerNameRequired": "请输入提供商名称",
+    "apiKeyRequired": "请输入 API 密钥",
+    "apiUrlRequired": "请输入 API 地址"
+  },
+  "chatSettings": {
+    "title": "对话设置",
+    "inputSettings": "输入设置",
+    "newlineSendLogic": "换行与发送逻辑",
+    "shiftEnterNewlineEnterSend": "Shift+Enter 换行，Enter 发送",
+    "shiftEnterSendEnterNewline": "Shift+Enter 发送，Enter 换行",
+    "enterNewlineTabSend": "Enter 换行，Tab 发送"
+  },
+  "assistantSettings": {
+    "title": "辅助功能设置",
+    "inputConvenienceSettings": "输入框便捷插入设置",
+    "addToInputAction": "添加到输入框行为",
+    "addToInputFormat": "添加到输入框格式",
+    "removeMdTextSpanTag": "移除 markdown 文本中的 span 标签",
+    "replaceAction": "替换",
+    "appendAction": "追加",
+    "markdownFormat": "Markdown",
+    "plaintextFormat": "纯文本",
+    "htmlFormat": "HTML"
+  },
+  "displaySettings": {
+    "title": "显示设置",
+    "renderSettings": "渲染设置",
+    "renderUserMsgAsMarkdown": "将用户消息渲染为 Markdown",
+    "interfaceSettings": "界面设置",
+    "enableSlogan": "显示标语",
+    "sloganMode": "标语模式",
+    "sloganModeDefault": "默认",
+    "sloganModeCustom": "自定义",
+    "customSlogan": "自定义标语",
+    "customSloganPlaceholder": "请输入自定义标语...",
+    "typewriterEffect": "打字机特效"
+  },
+  "message": {
+    "deepthinking": "深度思考中...",
+    "deepthinked": "已完成思考",
+    "editTitle": "编辑消息",
+    "editContentLabel": "消息内容",
+    "editContentPlaceholder": "请输入消息内容...",
+    "regenerating": "生成中...",
+    "send": "发送",
+    "quoteFileName": "消息引用"
+  },
+  "history": {
+    "title": "对话历史",
+    "searchPlaceholder": "搜索对话...",
+    "filterByTags": "按标签筛选",
+    "pinned": "已置顶",
+    "allConversations": "所有对话",
+    "pin": "置顶",
+    "unpin": "取消置顶",
+    "rename": "重命名",
+    "delete": "删除",
+    "confirmDelete": "确认吗？",
+    "renameDialog": "重命名对话",
+    "enterNewName": "请输入新的对话名称",
+    "pinnedSuccess": "已置顶",
+    "unpinnedSuccess": "已取消置顶",
+    "renamedSuccess": "重命名成功",
+    "deletedSuccess": "已删除",
+    "tags": "标签",
+    "addTag": "添加标签",
+    "newTag": "+ 新建标签",
+    "existingTags": "已有标签",
+    "tagAdded": "标签已添加",
+    "tagRemoved": "标签已移除"
+  },
+  "selectionToolbar": {
+    "copy": "复制",
+    "ask": "询问",
+    "explain": "解释",
+    "quote": "引用",
+    "askPlaceholder": "输入你的问题..."
+  },
+  "context": {
+    "scope": "作用范围",
+    "scopeLocal": "局部",
+    "scopeGlobal": "全局",
+    "workspace": "工作空间",
+    "localFile": "本地文件",
+    "prompts": "指令",
+    "rules": "规则",
+    "screenshot": "截屏",
+    "searchDocument": "搜索文档...",
+    "noDocumentFound": "未找到匹配的文档",
+    "noDocument": "暂无文档",
+    "scrollHint1": "仅显示前 ",
+    "scrollHint2": " 个文档，请使用搜索功能查找更多文档",
+    "alwaysApply": "始终应用"
+  },
+  "prompt": {
+    "title": "提示词设置",
+    "management": "提示词管理",
+    "managementDesc": "管理自定义提示词模板",
+    "add": "添加提示词",
+    "info": "提示词信息",
+    "noPrompts": "暂无提示词",
+    "noDescription": "无描述",
+    "confirmDelete1": "确定要删除提示词",
+    "confirmDelete2": "吗？这将同时删除提示词配置和提示词文件。",
+    "edit": "编辑提示词",
+    "name": "提示词名称",
+    "description": "描述",
+    "content": "提示词内容",
+    "enterName": "请输入提示词名称",
+    "enterDescription": "请输入描述信息",
+    "enterContent": "请输入指令模板...\n标记 %USER_INPUT% 将被替换为输入框中的文本，指令示例：将以下内容进行翻译：%USER_INPUT%" 
+
+  },
+  "rule": {
+    "projectRule": "项目规则",
+    "userRule": "用户规则",
+    "addProjectRule": "添加项目规则",
+    "editProjectRule": "编辑项目规则",
+    "addUserRule": "添加用户规则",
+    "editUserRule": "编辑用户规则",
+    "ruleName": "规则名称",
+    "ruleContent": "规则内容",
+    "applyMethod": "应用方式",
+    "filePattern": "文件匹配模式",
+    "enterRuleName": "请输入规则名称...",
+    "enterRuleContent": "请输入规则内容...",
+    "enterDescription": "请简要描述此规则的用途...",
+    "selectApplyMethod": "请选择应用方式",
+    "enterFilePattern": "例: *.md, src/**/*.ts (用逗号分隔多个模式)",
+    "renameNote": "修改名称将同时重命名规则文件",
+    "filePatternHelp": "支持 glob 模式，如 *.md 匹配所有 markdown 文件，src/**/*.ts 匹配 src 目录下所有 TypeScript 文件",
+    "applyAlways": "总是应用",
+    "applyManual": "手动应用",
+    "applySpecific": "特定文件",
+    "applyIntelligently": "智能应用",
+    "ruleNameRequired": "请输入规则名称",
+    "applyMethodRequired": "请选择应用方式",
+    "ruleContentRequired": "请输入规则内容",
+    "formValidationFailed": "表单验证失败",
+    "ruleSettings": "规则设置",
+    "userRuleDescription": "设置个人输出喜好",
+    "projectRuleDescription": "帮助模型了解工作空间信息",
+    "noDescription": "无描述",
+    "confirmDeleteUserRule": "确定要删除这条用户规则吗？",
+    "confirmDeleteProjectRule": "确定要删除项目规则 \"{{name}}\" 吗？这将同时删除规则配置和规则文件。",
+    "noProjectRules": "暂无项目规则",
+    "editRule": "编辑规则",
+    "deleteRule": "删除规则"
+  },
+  "inputHistory": {
+    "title": "输入历史",
+    "clipboard": "剪切板",
+    "clipboardPlaceholder": "在这里临时放置文本...",
+    "noHistory": "暂无历史记录"
+  },
+  "inputToolbar": {
+    "attachment": "附件",
+    "command": "高级能力",
+    "history": "输入历史",
+    "chatParam": "对话参数",
+    "noModelConfigured": "未配置模型",
+    "stopGeneration": "停止生成",
+    "sendMessage": "发送消息",
+    "insertAtCursor": "插入到光标位置"
   }
 }

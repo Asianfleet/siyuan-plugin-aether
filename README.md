@@ -6,7 +6,7 @@
     <img src="asset/aether.png" alt="catenaconf logo" width=100%/>
 </p>
 
-[English README](README_en_US.md) | [更新记录](CHANGELOG.md) | QQ 交流群：1044315407（密码：Aether）
+[中文 README](README_zh_CN.md) | [changelog](CHANGELOG.md) | QQ: 1044315407(password: Aether)
 
 # Aether （以太）
 
@@ -14,57 +14,46 @@ Aether —— Where Dialogue Meets Depth.
 
 ## 简介
 
-**本插件正在进行底层重构，长时间未更新敬请谅解**
+Aether is an AI conversation plugin designed for SiYuan. It supports sidebar conversations, standalone window conversations, and can insert AI-generated content directly into SiYuan files (with more features for deeper SiYuan integration continuously being added).
 
-Aether 是一个为思源笔记设计的基于 LLM 的增强插件，可支持侧边栏对话、独立窗口对话，也可以将 LLM 生成的内容直接输出在在思源文件内（将会持续增加与思源深度结合的功能）。
-⚠️ **注意：** 由于个人时间关系，目前插件还未完全稳定，在稳定之前可能会清空个人配置以及对话记录，请及时将重要信息保存到其他地方。
-⚠️ 最近正在对插件进行大规模重构，短时间内不会再有更新，望谅解
+⚠️ It is recommended to save important information elsewhere in a timely manner to avoid potential data loss.
 
-## 最近更新实现的功能
+## Getting Started
 
-- 思源笔记文件添加到上下文
-- 样式优化
-- 图片以及文档输入
-- 会话中消息内容的修改与重新生成
-- 自定义预设提示词
-- 对话历史记录
+[Click here to view the usage documentation](https://gcnicgs9mvik.feishu.cn/wiki/RKKvwo65Yi91e1kWgABcAznontc?from=from_copylink)
 
-## 开始
+✨ The plugin has been updated to version 2.0, with the following new features:
+- Support docker and mobile
+- Support background message generation (multiple messages can be generated at the same time)
+- Support command and rules
+- Text selection toolbar in conversation
+- Quick jump, back to top, and back to bottom of conversation content
+
+Future plans to support:
+- rag function
+- online search during conversation, search in Siyuan notebook
+- agent
 
 <p align="center">
     <img src="asset/start.png" alt="catenaconf logo" width=90%/>
-    <p align="center">右侧按钮：侧边栏对话；上侧按钮：其他对话方式</p>
+    <p align="center">Right button: sidebar conversation</p>
 </p>
 
-## 核心界面
+## Core Interface
 
 <p align="center">
     <img src="asset/sidebar.png" alt="catenaconf logo" width=90%/>
-    <p align="center">侧边栏界面</p>
-</p>
-
-<p align="center">
-    <img src="asset/instant.png" alt="catenaconf logo" width=90%/>
-    <p align="center">快速对话界面</p>
-</p>
-
-<p align="center">
-    <img src="asset/inline.png" alt="catenaconf logo" width=90%/>
-    <p align="center">行内对话界面</p>
+    <p align="center">Sidebar interface</p>
 </p>
 
 <p align="center">
     <img src="asset/standalone.png" alt="catenaconf logo" width=90%/>
-    <p align="center">独立窗口界面</p>
+    <p align="center">Standalone window interface</p>
 </p>
 
-## 使用文档
-
-[点击查看使用文档](https://gcnicgs9mvik.feishu.cn/docx/STledhU8MohvqJxW3Z9cmEv1noe?from=from_copylink)
-
-## 赞赏作者
+## Appreciate the Author
 
 <p align="center">
     <img src="asset/donate.jpg" alt="catenaconf logo" width=50%/>
 </p>
-<p align="center">如果你喜欢这个插件，可以赞赏一下作者嗷~ :D</p>
+<p align="center">If you like this plugin, you can appreciate the author by donating one or more times. :D</p>
