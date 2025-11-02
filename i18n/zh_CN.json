@@ -93,7 +93,8 @@
     "newlineSendLogic": "换行与发送逻辑",
     "shiftEnterNewlineEnterSend": "Shift+Enter 换行，Enter 发送",
     "shiftEnterSendEnterNewline": "Shift+Enter 发送，Enter 换行",
-    "enterNewlineTabSend": "Enter 换行，Tab 发送"
+    "enterNewlineTabSend": "Enter 换行，Tab 发送",
+    "modelOutputSettings": "模型输出设置"
   },
   "assistantSettings": {
     "title": "辅助功能设置",

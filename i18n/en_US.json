@@ -93,7 +93,8 @@
     "newlineSendLogic": "Newline & Send Logic",
     "shiftEnterNewlineEnterSend": "Shift+Enter for newline, Enter to send",
     "shiftEnterSendEnterNewline": "Shift+Enter to send, Enter for newline",
-    "enterNewlineTabSend": "Enter for newline, Tab to send"
+    "enterNewlineTabSend": "Enter for newline, Tab to send",
+    "modelOutputSettings": "Model Output Settings"
   },
   "assistantSettings": {
     "title": "Assistant Settings",

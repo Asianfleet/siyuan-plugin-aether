@@ -1,10 +1,12 @@
 <p align="center">
-    <img src="asset/aether.png" alt="catenaconf logo" width=100%/>
+    <img src="asset/aether-thin.png" alt="catenaconf logo" width=100%/>
 </p>
 
 [1.x changelog](CHANGELOG.md)
 
-# changelog
+## v2.0.1
+- Support top_p parameter
+- Fixed compatibility issues with kmind plugin
 
 ## v2.0.0
 
