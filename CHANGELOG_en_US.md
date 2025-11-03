@@ -4,12 +4,19 @@
 
 [1.x changelog](CHANGELOG.md)
 
+## v2.1.1
+
+- Added reasoning content folding feature: when enabled, reasoning content will be automatically folded after thinking is completed, and clicking to expand will display the full content
+- Optimized input box style
+
 ## v2.1.0
+
 - Added message history export function
 - Added user message folding feature: when enabled, user input messages that are too long will be automatically folded, only displaying partial content, and clicking to expand will display the full content
 - When dragging a Siyuan tab to the input box, if the notebook is in focus, only the focused part will be extracted as context
 
 ## v2.0.1
+
 - Support top_p parameter
 - Fixed compatibility issues with kmind plugin
 
