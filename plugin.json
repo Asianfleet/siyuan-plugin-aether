@@ -1,0 +1,44 @@
+{
+  "name": "siyuan-plugin-aether",
+  "author": "Asianfleet",
+  "url": "https://github.com/Asianfleet/siyuan-plugin-aether",
+  "version": "2.1.1",
+  "minAppVersion": "3.2.1",
+  "backends": [
+    "windows",
+    "linux",
+    "darwin",
+    "ios",
+    "android",
+    "harmony",
+    "docker"
+  ],
+  "frontends": [
+    "desktop",
+    "mobile",
+    "browser-desktop",
+    "browser-mobile",
+    "desktop-window"
+  ],
+  "displayName": {
+    "en_US": "Aether",
+    "zh_CN": "Aether（以太）"
+  },
+  "description": {
+    "en_US": "Sidebar conversation, standalone window conversation, and insert AI-generated content into Siyuan files",
+    "zh_CN": "侧边栏对话、独立窗口对话，将 AI 生成的内容插入到思源文件内"
+  },
+  "readme": {
+    "en_US": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "custom": [
+      ""
+    ]
+  },
+  "keywords": [
+    "ai",
+    "chat"
+  ]
+}
