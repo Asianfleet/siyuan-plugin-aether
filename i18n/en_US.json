@@ -100,7 +100,12 @@
     "reasoningContentBehavior": "Reasoning Content Behavior",
     "keepExpanded": "Keep Expanded",
     "keepCollapsed": "Keep Collapsed",
-    "collapseAfterThinking": "Collapse After Thinking"
+    "collapseAfterThinking": "Collapse After Thinking",
+    "chatInfoGeneratorSettings": "Chat Info Gen Settings",
+    "chatInfoGeneratorProvider": "Provider",
+    "chatInfoGeneratorModel": "Model",
+    "selectProvider": "Please select provider",
+    "selectModel": "Please select model"
   },
   "assistantSettings": {
     "title": "Assistant Settings",
@@ -159,8 +164,10 @@
     "addTag": "Add Tag",
     "newTag": "+ New Tag",
     "existingTags": "Existing Tags",
+    "deleteTag": "Delete Tag",
     "tagAdded": "Tag added",
     "tagRemoved": "Tag removed",
+    "tagDeletedFromLibrary": "Tag deleted from library",
     "export": "Export",
     "exportCopy": "Copy Only",
     "exportSave": "Save to Local",
@@ -183,6 +190,7 @@
     "prompts": "Prompts",
     "rules": "Rules",
     "screenshot": "Screenshot",
+    "onlineSearch": "Online Search",
     "searchDocument": "Search documents...",
     "noDocumentFound": "No matching documents found",
     "noDocument": "No documents",

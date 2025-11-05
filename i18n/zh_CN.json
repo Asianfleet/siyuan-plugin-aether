@@ -100,7 +100,12 @@
     "reasoningContentBehavior": "思考内容行为",
     "keepExpanded": "保持展开",
     "keepCollapsed": "保持折叠",
-    "collapseAfterThinking": "思考完成后折叠"
+    "collapseAfterThinking": "思考完成后折叠",
+    "chatInfoGeneratorSettings": "对话信息生成设置",
+    "chatInfoGeneratorProvider": "提供方",
+    "chatInfoGeneratorModel": "模型",
+    "selectProvider": "请选择提供方",
+    "selectModel": "请选择模型"
   },
   "assistantSettings": {
     "title": "辅助功能设置",
@@ -159,8 +164,10 @@
     "addTag": "添加标签",
     "newTag": "+ 新建标签",
     "existingTags": "已有标签",
+    "deleteTag": "删除标签",
     "tagAdded": "标签已添加",
     "tagRemoved": "标签已移除",
+    "tagDeletedFromLibrary": "标签已从标签库删除",
     "export": "导出",
     "exportCopy": "仅复制",
     "exportSave": "保存到本地",
@@ -183,6 +190,7 @@
     "prompts": "指令",
     "rules": "规则",
     "screenshot": "截屏",
+    "onlineSearch": "联网搜索",
     "searchDocument": "搜索文档...",
     "noDocumentFound": "未找到匹配的文档",
     "noDocument": "暂无文档",

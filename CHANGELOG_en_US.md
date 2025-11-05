@@ -2,27 +2,40 @@
     <img src="asset/aether-thin.png" alt="catenaconf logo" width=100%/>
 </p>
 
-[1.x changelog](CHANGELOG.md)
+[1.x changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
+
+## v2.2.0
+
+- **The tags of conversation records will be automatically generated**
+- Fixed the problem that the plugin icon can only open the standalone window normally when it is in the upper right corner
+- Fixed the 1.x version link in the changelog interface
+- Plugin style optimization
+
+## v2.1.2
+
+- Fixed the problem that the plugin icon can only open the standalone window normally when it is in the upper right corner
+- Fixed the 1.x version link in the changelog interface
+- Plugin style optimization
 
 ## v2.1.1
 
-- Added reasoning content folding feature: when enabled, reasoning content will be automatically folded after thinking is completed, and clicking to expand will display the full content
+- Added **reasoning content folding feature**: when enabled, reasoning content will be automatically folded after thinking is completed, and clicking to expand will display the full content
 - Optimized input box style
 
 ## v2.1.0
 
-- Added message history export function
-- Added user message folding feature: when enabled, user input messages that are too long will be automatically folded, only displaying partial content, and clicking to expand will display the full content
-- When dragging a Siyuan tab to the input box, if the notebook is in focus, only the focused part will be extracted as context
+- Added **message history export function**
+- Added **user message folding feature**: when enabled, user input messages that are too long will be automatically folded, only displaying partial content, and clicking to expand will display the full content
+- When dragging a Siyuan tab to the input box, if the notebook is in focus, **only the focused part will be extracted as context**
 
 ## v2.0.1
 
-- Support top_p parameter
+- **Support top_p parameter**
 - Fixed compatibility issues with kmind plugin
 
 ## v2.0.0
 
-Refactor plugin code
+**Refactor plugin code**
 
 - UI style optimization
 - Added rules and command features
