@@ -4,6 +4,12 @@
 
 [1.x changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.2.1
+
+- Improved model context usage rate component: when the current model does not set the context window, the component is not displayed
+- Improved plugin configuration loading logic
+- Optimized user message toolbar style
+
 ## v2.2.0
 
 - **The tags of conversation records will be automatically generated**

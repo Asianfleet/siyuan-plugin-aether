@@ -4,6 +4,12 @@
 
 [1.x 版本 changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.2.1
+
+- 改进模型上下文使用率组件：当前模型未设置上下文窗口时，则不显示组件
+- 改进插件配置加载逻辑
+- 优化用户消息工具栏样式
+
 ## v2.2.0
 
 - **对话记录的标签将自动生成**
