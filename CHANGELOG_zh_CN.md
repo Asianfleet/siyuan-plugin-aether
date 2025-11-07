@@ -4,6 +4,15 @@
 
 [1.x 版本 changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.3.0
+
+- 确保 API 密钥**使用 ISO-8859-1 编码**并进行 URL 编码处理：在调用在线模型接口时，对 API 密钥进行了编码兼容性处理
+  - 应对错误1：[Aether] Failed to start stream:Failed to execute 'append' on 'Headers': String contains non ISO-8859-1 code point. v3.3.6 
+  - 应对错误2：获取模型列表失败：Failed to construct 'Headers': String contains non ISO-8859-1 code point
+- **添加块内容去重功能**以解决重复内容问题：当选中的块包含标题时，“添加到 Aether 输入”选项会导致内容重复
+- 修复插件侧栏图标**拖动后行为异常**问题：当插件处于对话状态，此时拖动侧栏图标会导致插件操作失效
+- 插件样式优化：更新了多个若干组件的 CSS 类名前缀，统一命名空间，增强样式隔离性
+
 ## v2.2.1
 
 - 改进模型上下文使用率组件：当前模型未设置上下文窗口时，则不显示组件

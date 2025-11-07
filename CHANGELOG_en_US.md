@@ -4,6 +4,15 @@
 
 [1.x changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.3.0
+
+- Ensure API key **uses ISO-8859-1 encoding** and performs URL encoding processing: when calling the online model interface, the API key is encoded for compatibility processing
+  - Response to error 1: [Aether] Failed to start stream:Failed to execute 'append' on 'Headers': String contains non ISO-8859-1 code point. v3.3.6 
+  - Response to error 2: Failed to get model list: Failed to construct 'Headers': String contains non ISO-8859-1 code point
+- **Added block content deduplication function** to solve the problem of duplicate content: when the selected block contains a title, the "Add to Aether input" option will cause duplicate content
+- Fixed the **behavior anomaly** problem of the plugin sidebar icon after dragging: when the plugin is in the conversation state, dragging the sidebar icon will cause the plugin operation to fail
+- Plugin style optimization: updated the CSS class names of several components, unified the naming space, and enhanced the style isolation
+
 ## v2.2.1
 
 - Improved model context usage rate component: when the current model does not set the context window, the component is not displayed
