@@ -4,6 +4,14 @@
 
 [1.x changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.4.0
+
+- Added **link context type**:
+  - The link content pasted into the input box will be automatically parsed as context attachment (note: not supported for Siyuan block hyperlink, if the pasted content contains a link, it must be surrounded by spaces, otherwise it will be treated as normal text)
+  - Added "Add to Aether input" option in hyperlink right-click menu, can directly add the selected hyperlink to the input box
+- Added "Add to Aether input" option in image menu and breadcrumb more menu
+- Optimized internal data loading logic
+
 ## v2.3.1
 
 - Optimized internal configuration loading logic
