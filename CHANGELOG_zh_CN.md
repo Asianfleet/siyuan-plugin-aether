@@ -4,6 +4,11 @@
 
 [1.x 版本 changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.3.1
+
+- 优化内部配置加载逻辑
+- 修复与 toolkit-plugin-siyuan 插件的兼容性问题（与该插件同时使用时，会导致 Aether 无法读取插件配置）
+
 ## v2.3.0
 
 - 确保 API 密钥**使用 ISO-8859-1 编码**并进行 URL 编码处理：在调用在线模型接口时，对 API 密钥进行了编码兼容性处理

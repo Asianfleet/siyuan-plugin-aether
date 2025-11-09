@@ -4,6 +4,11 @@
 
 [1.x changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.3.1
+
+- Optimized internal configuration loading logic
+- Fixed compatibility issues with toolkit-plugin-siyuan plugin (when used together, it will cause Aether to fail to read plugin configurations)
+
 ## v2.3.0
 
 - Ensure API key **uses ISO-8859-1 encoding** and performs URL encoding processing: when calling the online model interface, the API key is encoded for compatibility processing
