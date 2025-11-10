@@ -4,6 +4,25 @@
 
 [1.x changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.5.0
+
+- Reconstructed "Workspace" option in attachment panel:
+  - Added **two loading modes**: Partial and Full. In Full mode, the plugin will query all SiYuan notes during initialization, and the "Workspace" panel will hold data for all SiYuan notes (left in the figure below). In Partial mode, the plugin will only get documents from opened tabs and recently opened documents during initialization. The "Workspace" panel will not display all SiYuan documents, but users can dynamically search through the search box (right in the figure below).
+  
+  <p align="center">
+    <img src="asset/changelog/v250/v250-1.png" alt="image" width=30%/>
+    <img src="asset/changelog/v250/v250-2.png" alt="image" width=30%/>
+    <img src="asset/changelog/v250/v250-3.png" alt="image" width=30%/>
+  </p>
+  
+  - In Full mode, **sync settings** are available: the plugin will periodically re-fetch SiYuan note information at set intervals (in minutes) to update user modifications during this period.
+- Added "Context Settings" for configuring the above modes
+  <p align="center">
+    <img src="asset/changelog/v250/4.png" alt="image" width=80%/>
+  </p>
+- Added "Recently opened files" option to attachment panel, and added return button to each sub-panel
+- Optimized plugin configuration loading logic
+
 ## v2.4.0
 
 - Added **link context type**:

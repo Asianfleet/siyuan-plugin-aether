@@ -107,6 +107,19 @@
     "selectProvider": "Please select provider",
     "selectModel": "Please select model"
   },
+  "contextSettings": {
+    "title": "Context Attachment Settings",
+    "siyuanFileInfoSettings": "Siyuan Document Info Settings",
+    "siyuanFileInfoInitMode": "Initialization Mode",
+    "partialMode": "Partial",
+    "fullMode": "Full",
+    "enableSync": "Enable Sync",
+    "siyuanFileInfoSyncInterval": "Sync Interval (mins)",
+    "description": "Configure how SiYuan note data is obtained in the plugin's '@' attachment panel workspace",
+    "initModeDescription1": "Partial mode: Only get opened tab documents, documents in the workspace need to be searched by users",
+    "initModeDescription2": "Full mode: Get all SiYuan document lists when the plugin loads",
+    "syncDescription": "In 'Full' initialization mode, periodically update SiYuan note information"
+  },
   "assistantSettings": {
     "title": "Assistant Settings",
     "inputConvenienceSettings": "Input Convenience Settings",
@@ -186,17 +199,20 @@
     "scopeLocal": "Local",
     "scopeGlobal": "Global",
     "workspace": "Workspace",
+    "recentDocs": "Recent Documents",
     "localFile": "Local File",
     "prompts": "Prompts",
     "rules": "Rules",
     "screenshot": "Screenshot",
     "onlineSearch": "Online Search",
     "searchDocument": "Search documents...",
+    "searchDocumentHint": "Please search for Siyuan documents...",
     "noDocumentFound": "No matching documents found",
     "noDocument": "No documents",
     "scrollHint1": "Showing first ",
     "scrollHint2": " documents, use search to find more",
-    "alwaysApply": "Always Apply"
+    "alwaysApply": "Always Apply",
+    "noRecentDocs": "No recent documents"
   },
   "prompt": {
     "title": "Prompt Settings",

@@ -107,6 +107,19 @@
     "selectProvider": "请选择提供方",
     "selectModel": "请选择模型"
   },
+  "contextSettings": {
+    "title": "上下文附件设置",
+    "siyuanFileInfoSettings": "思源文档信息设置",
+    "siyuanFileInfoInitMode": "初始化模式",
+    "partialMode": "部分",
+    "fullMode": "完整",
+    "enableSync": "启用同步",
+    "siyuanFileInfoSyncInterval": "同步间隔（分钟）",
+    "description": "配置插件“@”附件面板中的工作空间思源笔记数据获取方式",
+    "initModeDescription1": "部分模式：仅获取打开的页签文档，工作空间内的文档需要用户自行搜索",
+    "initModeDescription2": "完整模式：插件加载时获取思源的所有文档列表并显示",
+    "syncDescription": "在“完整”初始化模式下，定时更新思源笔记信息"
+  },
   "assistantSettings": {
     "title": "辅助功能设置",
     "inputConvenienceSettings": "输入框便捷插入设置",
@@ -186,17 +199,20 @@
     "scopeLocal": "局部",
     "scopeGlobal": "全局",
     "workspace": "工作空间",
+    "recentDocs": "最近打开的文档",
     "localFile": "本地文件",
     "prompts": "指令",
     "rules": "规则",
     "screenshot": "截屏",
     "onlineSearch": "联网搜索",
     "searchDocument": "搜索文档...",
+    "searchDocumentHint": "请查询思源文档...",
     "noDocumentFound": "未找到匹配的文档",
     "noDocument": "暂无文档",
     "scrollHint1": "仅显示前 ",
     "scrollHint2": " 个文档，请使用搜索功能查找更多文档",
-    "alwaysApply": "始终应用"
+    "alwaysApply": "始终应用",
+    "noRecentDocs": "暂无最近打开的文档"
   },
   "prompt": {
     "title": "提示词设置",

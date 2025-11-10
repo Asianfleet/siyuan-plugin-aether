@@ -4,6 +4,25 @@
 
 [1.x 版本 changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.5.0
+
+- 附件面板“工作空间”选项重构：
+  - 有**两种加载模式**：部分和完整。在完整模式下，插件初始化时将查询思源所有的笔记，“工作空间”面板将持有思源所有笔记的数据（下图左一）。在部分模式下，插件初始化时将仅获取页签打开的文档与最近打开的文档，“工作空间”面板将不会展示思源的所有文档，而是用户使用搜索框进行动态搜索（下图右一、右二）。
+  
+  <p align="center">
+    <img src="asset/changelog/v250/v250-1.png" alt="image" width=30%/>
+    <img src="asset/changelog/v250/v250-2.png" alt="image" width=30%/>
+    <img src="asset/changelog/v250/v250-3.png" alt="image" width=30%/>
+  </p>
+
+  - 在完整模式下，可进行**同步设置**：每隔一段时间（以分钟为单位），插件将会重新获取思源笔记信息，用于更新用户在此期间的修改。
+- 插件设置界面新增“**上下文设置**”，用于设置以上的模式
+  <p align="center">
+    <img src="asset/changelog/v250/4.png" alt="image" width=80%/>
+  </p>
+- 附件面板新增“**最近打开的文件**”选项，且每个子面板添加了返回按钮
+- 优化插件配置加载逻辑
+
 ## v2.4.0
 
 - 新增**链接上下文类型**：
