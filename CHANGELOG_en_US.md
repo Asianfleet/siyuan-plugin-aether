@@ -4,6 +4,10 @@
 
 [1.x changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.5.1
+- Optimized keyboard navigation functionality in context attachment panel
+- Fixed the issue where the context panel opened by the “@” key is covered
+
 ## v2.5.0
 
 - Reconstructed "Workspace" option in attachment panel:

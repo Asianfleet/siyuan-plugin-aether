@@ -4,6 +4,11 @@
 
 [1.x 版本 changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.5.1
+
+- 优化上下文附件面板的键盘导航功能
+- 修复通过 “@” 键调出的上下文面板被遮住的问题
+
 ## v2.5.0
 
 - 附件面板“工作空间”选项重构：
