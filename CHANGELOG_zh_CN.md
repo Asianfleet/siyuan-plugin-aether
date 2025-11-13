@@ -4,6 +4,25 @@
 
 [1.x 版本 changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+## v2.5.2
+
+- 优化对话框中的附件显示：
+  - 增加最大显示附件数量配置（位于“显示设置”），超过数量后将自动折叠
+  
+  <p align="center">
+    <img src="asset/changelog/v252/1.png" alt="image" width=60%/>
+  </p>
+
+  - 优化输入框样式
+- 优化了链接粘贴逻辑：
+
+  <p align="center">
+    <img src="asset/changelog/v252/2.gif" alt="image" width=80%/>
+  </p>
+
+  - 当剪贴板内容仅包含链接时，自动解析并添加为上下文文件，且阻止默认粘贴行为；
+  - 支持生成更友好的短文件名用于显示
+
 ## v2.5.1
 
 - 优化上下文附件面板的键盘导航功能

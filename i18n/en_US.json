@@ -144,7 +144,9 @@
     "sloganModeCustom": "Custom",
     "customSlogan": "Custom Slogan",
     "customSloganPlaceholder": "Enter custom slogan...",
-    "typewriterEffect": "Typewriter"
+    "typewriterEffect": "Typewriter",
+    "dialogLayoutSettings": "Dialog Layout Settings",
+    "maxVisibleBadges": "Max Visible Attachment Badges"
   },
   "message": {
     "deepthinking": "Thinking",
@@ -211,6 +213,7 @@
     "noDocument": "No documents",
     "scrollHint1": "Showing first ",
     "scrollHint2": " documents, use search to find more",
+    "collapsedTitle": "More context files",
     "alwaysApply": "Always Apply",
     "noRecentDocs": "No recent documents"
   },
@@ -282,6 +285,7 @@
     "noModelConfigured": "No Model Configured",
     "stopGeneration": "Stop Generation",
     "sendMessage": "Send Message",
-    "insertAtCursor": "Insert at Cursor"
+    "insertAtCursor": "Insert at Cursor",
+    "aiSearch": "AI Search"
   }
 }

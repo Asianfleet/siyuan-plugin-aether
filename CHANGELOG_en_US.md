@@ -4,6 +4,26 @@
 
 [1.x changelog](https://github.com/Asianfleet/siyuan-plugin-aether/blob/main/CHANGELOG.md)
 
+
+## v2.5.2
+
+- Optimized attachment display in dialog:
+  - Added maximum display attachment quantity configuration (located in "Display Settings"), exceeding which will be automatically folded
+  
+  <p align="center">
+    <img src="asset/changelog/v252/1.png" alt="image" width=60%/>
+  </p>
+  
+  - Optimized input box style
+- Optimized link paste logic:
+  
+  <p align="center">
+    <img src="asset/changelog/v252/2.gif" alt="image" width=80%/>
+  </p>
+
+  - When the clipboard content only contains a link, automatically parse and add it as a context file, and prevent the default paste behavior;
+  - Support generating a more friendly short file name for display
+
 ## v2.5.1
 - Optimized keyboard navigation functionality in context attachment panel
 - Fixed the issue where the context panel opened by the “@” key is covered

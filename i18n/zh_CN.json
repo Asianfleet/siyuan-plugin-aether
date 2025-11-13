@@ -144,7 +144,9 @@
     "sloganModeCustom": "自定义",
     "customSlogan": "自定义标语",
     "customSloganPlaceholder": "请输入自定义标语...",
-    "typewriterEffect": "打字机特效"
+    "typewriterEffect": "打字机特效",
+    "dialogLayoutSettings": "对话框布局设置",
+    "maxVisibleBadges": "附件条目最大显示数量"
   },
   "message": {
     "deepthinking": "深度思考中...",
@@ -211,6 +213,7 @@
     "noDocument": "暂无文档",
     "scrollHint1": "仅显示前 ",
     "scrollHint2": " 个文档，请使用搜索功能查找更多文档",
+    "collapsedTitle": "更多上下文文件",
     "alwaysApply": "始终应用",
     "noRecentDocs": "暂无最近打开的文档"
   },
@@ -283,6 +286,7 @@
     "noModelConfigured": "未配置模型",
     "stopGeneration": "停止生成",
     "sendMessage": "发送消息",
-    "insertAtCursor": "插入到光标位置"
+    "insertAtCursor": "插入到光标位置",
+    "aiSearch": "AI 搜索"
   }
 }
